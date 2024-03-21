@@ -6,11 +6,10 @@ import java.util.*;
 
 public class UserService {
     private static final Map<String, String> USERS = new HashMap<>();
-    public static boolean verifyPassword(String name, String pass) throws NoSuchAlgorithmException {
-        String passSha256 = stringToSha256(pass);
 
-        System.out.println(passSha256);
-        return true;
+    public static boolean verifyPassword(String name, String pass){
+        String passSha256 = stringToSha256(pass);
+        return USERS.containsKey(name) && USERS.get(name).equals(passSha256);
     }
 
     public static String stringToSha256(String text) {
