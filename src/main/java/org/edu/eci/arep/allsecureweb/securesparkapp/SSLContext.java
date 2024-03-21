@@ -17,7 +17,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class SSLContext {
-
+    /**
+     * Método que se encarga de establecer las configuraciones básicas en la conexión ssl
+     */
     public static void setContext(){
         try {
 
@@ -69,7 +71,10 @@ public class SSLContext {
         }
     }
 
-
+    /**
+     * Método que busca en las variables de entorno el path de la llave de confianza
+     * @return path de la variable de llave de confianza
+     */
     private static String getTrustPath(){
         if(System.getenv("TRUST-PATH") != null){
             return System.getenv("TRUST-PATH");

@@ -17,7 +17,12 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
 
 public class URLReader {
-
+    /**
+     * Método que dada una dirección establece la conexión y procesa la respuesta
+     * @param sitetoread Dirección de la página con la que se desea hacer la conexión
+     * @return Respuesta de la página
+     * @throws IOException Se lanza en caso de que haya un problema en la conexión
+     */
     public static String readURL(String sitetoread) throws IOException {
             System.out.println("url: "+ sitetoread);
             // Crea el objeto que representa una URL2
