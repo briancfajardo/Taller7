@@ -49,7 +49,8 @@ mvn exec:java -Dexec.mainClass="org.edu.eci.arep.allsecureweb.securesparkapp.Sec
 
 Podrás entrar a http://localhost:37000/ y deberías ver lo siguiente:
 
-![pagInicial](https://github.com/briancfajardo/AREP-Taller6/assets/80064378/c94489e7-6bd4-42d7-80ce-41d34c1ec3ec)
+![pagInicial](https://github.com/briancfajardo/Taller7-AREP/assets/80064378/dac066c2-efb7-40bc-bb12-28e2bf36c535)
+
 
 Las credenciales correctas que hay son las siguientes:
 
@@ -69,12 +70,12 @@ hicimos dos pruebas, la primera con un usuario que no existe y la segundo con un
 
 Usuario no existente:
 
+![usuarioNoExistente](https://github.com/briancfajardo/Taller7-AREP/assets/80064378/0bdc8aa7-fc0c-443e-90dc-c601b827c695)
+
+
 Usuario existente:
 
-
-
-![EjemplodeUso](https://github.com/briancfajardo/AREP-Taller6/assets/80064378/5f332551-de53-4b22-8072-2ce3786935bf)
-
+![usuarioExistente](https://github.com/briancfajardo/Taller7-AREP/assets/80064378/f6beab0f-09ba-4eef-91df-6f2ce907ce3a)
 
 ## Documentacion
 
@@ -119,8 +120,7 @@ que contiene toda la lógica del login.
 
 La arquitectura de este taller es presentada con el siguiente diagrama:
 
-![arquitectura](https://github.com/briancfajardo/AREP-Taller6/assets/80064378/e58e18bb-79aa-4286-b4d2-69d17a13ddda)
-
+![Arquitectura](https://github.com/briancfajardo/Taller7-AREP/assets/80064378/30555e3b-cb03-4873-bdd3-3b38601328b9)
 
 En donde se especifican los siguientes componentes:
 
@@ -139,7 +139,7 @@ Además, el proyecto java fue desplegado de 2 máquinas virtuales de AWS:
 
 ## Video
 
-https://github.com/briancfajardo/AREP-Taller6/assets/80064378/d87e4aa0-a7ce-4970-ab56-9f8b59a8ee55
+https://github.com/briancfajardo/Taller7-AREP/assets/80064378/0c8b3cf8-2705-442c-941b-68389e852158
 
 ## Agradecimientos
 
